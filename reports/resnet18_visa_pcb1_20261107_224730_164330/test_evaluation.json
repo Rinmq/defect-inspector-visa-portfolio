@@ -1,0 +1,20 @@
+{
+  "dataset": "VisA",
+  "object": "pcb1",
+  "split": "official_test",
+  "total": 442,
+  "good": 402,
+  "defect": 40,
+  "selected_epoch": 2,
+  "threshold": 0.5,
+  "accuracy": 0.9638009049773756,
+  "average_precision": 0.9593189461046365,
+  "roc_auc": 0.9954601990049752,
+  "precision": 0.7222222222222222,
+  "recall": 0.975,
+  "f1": 0.8297872340425532,
+  "tn": 387,
+  "fp": 15,
+  "fn": 1,
+  "tp": 39
+}

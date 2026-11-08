@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-11-08T15:04:10.901402+09:00",
+  "model_sha256": "5bee6d281587e11fc553ee623887d2591c2d043000032a60702ec0115582da24",
+  "metadata_sha256": "eef593d0fa3425f93430db5f1674c50b9412a9b574c3d0a077fcb73db10c6102",
+  "cpp_executable_sha256": "c92cf64116161fd8a43c88e4e81a7d10cf8057922386a407ef6336bf3911a5b4",
+  "cpp_source_sha256": "a54158e9452a0656dc4c71d62f2518280d21914b06c559df835d80d370dd00ff",
+  "build_context": "Public-project source; reused existing dependencies",
+  "normal_test_reference": "Previously recorded Python logits for two images",
+  "results": [
+    {
+      "test": "pcb1/Data/Images/Normal/0000.JPG",
+      "kind": "normal_inference_against_saved_python_result",
+      "logits": [
+        1.9711954593658447,
+        -1.6001646518707275
+      ],
+      "max_absolute_error": 0.0,
+      "decision_match": true,
+      "passed": true
+    },
+    {
+      "test": "pcb1/Data/Images/Anomaly/010.JPG",
+      "kind": "normal_inference_against_saved_python_result",
+      "logits": [
+        -3.508607864379883,
+        3.278651714324951
+      ],
+      "max_absolute_error": 0.0,
+      "decision_match": true,
+      "passed": true
+    },
+    {
+      "test": "wrong_dtype",
+      "kind": "invalid_output_rejection",
+      "exit_code": 1,
+      "message": "ERROR: Expected float32 logits",
+      "passed": true
+    },
+    {
+      "test": "wrong_shape",
+      "kind": "invalid_output_rejection",
+      "exit_code": 1,
+      "message": "ERROR: Expected logits shape [1, 2]",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

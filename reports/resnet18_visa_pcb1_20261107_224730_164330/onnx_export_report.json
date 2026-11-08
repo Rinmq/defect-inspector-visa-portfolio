@@ -1,0 +1,50 @@
+{
+  "checkpoint_sha256": "24ac6ad03d7d6f4c7edeb064c384a948bb3008dcdd73b738791e2d017ccc98d0",
+  "onnx_sha256": "5bee6d281587e11fc553ee623887d2591c2d043000032a60702ec0115582da24",
+  "opset": 18,
+  "execution_provider": "CPUExecutionProvider",
+  "batch_size": 1,
+  "absolute_tolerance": 0.0001,
+  "relative_tolerance": 0.001,
+  "comparisons": [
+    {
+      "image": "0000.JPG",
+      "true_label": 0,
+      "pytorch_logits": [
+        [
+          1.9711942672729492,
+          -1.6001629829406738
+        ]
+      ],
+      "onnx_logits": [
+        [
+          1.9711954593658447,
+          -1.6001646518707275
+        ]
+      ],
+      "max_absolute_error": 1.6689300537109375e-06,
+      "allclose": true,
+      "decision_match": true
+    },
+    {
+      "image": "010.JPG",
+      "true_label": 1,
+      "pytorch_logits": [
+        [
+          -3.508607864379883,
+          3.2786521911621094
+        ]
+      ],
+      "onnx_logits": [
+        [
+          -3.508607864379883,
+          3.278651714324951
+        ]
+      ],
+      "max_absolute_error": 4.76837158203125e-07,
+      "allclose": true,
+      "decision_match": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,115 @@
+{
+  "dataset": "VisA",
+  "object": "pcb1",
+  "split": "validation",
+  "sample_count": 2,
+  "created_at": "2026-11-08T14:57:09.389565+09:00",
+  "model_sha256": "5bee6d281587e11fc553ee623887d2591c2d043000032a60702ec0115582da24",
+  "metadata_sha256": "eef593d0fa3425f93430db5f1674c50b9412a9b574c3d0a077fcb73db10c6102",
+  "cpp_executable_sha256": "fcf23f00947ec752d6260b2d8798c12462e53ffe60d5a9baa7981bc86c563392",
+  "cpp_build_source_verified": false,
+  "python_onnxruntime_version": "1.31.1",
+  "tensor_tolerance": {
+    "atol": 1e-06,
+    "rtol": 0
+  },
+  "logit_tolerance": {
+    "atol": 0.0001,
+    "rtol": 0.001
+  },
+  "comparisons": [
+    {
+      "image": "pcb1/Data/Images/Normal/0000.JPG",
+      "image_sha256": "cdd134e70b2ebfb048b9d50e13b68af24e16f9130d083f4f6cfbd63a74f884af",
+      "checks": {
+        "pillow_vs_cpp_tensor": {
+          "max_absolute_error": 0.0,
+          "passed": true
+        },
+        "same_tensor_python_vs_cpp_logits": {
+          "max_absolute_error": 0.0,
+          "passed": true
+        },
+        "gui_vs_cpp_image_logits": {
+          "max_absolute_error": 0.0,
+          "passed": true
+        },
+        "pillow_vs_gui_logits": {
+          "max_absolute_error": 0.0,
+          "passed": true
+        }
+      },
+      "python_logits": [
+        1.9711954593658447,
+        -1.6001646518707275
+      ],
+      "gui_logits": [
+        1.9711954593658447,
+        -1.6001646518707275
+      ],
+      "cpp_image_logits": [
+        1.9711954593658447,
+        -1.6001646518707275
+      ],
+      "cpp_shared_tensor_logits": [
+        1.9711954593658447,
+        -1.6001646518707275
+      ],
+      "decisions": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "decision_match": true,
+      "passed": true
+    },
+    {
+      "image": "pcb1/Data/Images/Anomaly/010.JPG",
+      "image_sha256": "42a0ee0c7d9e46733d3c19521d00bed0b1bc702f3f53488289014f44dbf9b020",
+      "checks": {
+        "pillow_vs_cpp_tensor": {
+          "max_absolute_error": 0.0,
+          "passed": true
+        },
+        "same_tensor_python_vs_cpp_logits": {
+          "max_absolute_error": 0.0,
+          "passed": true
+        },
+        "gui_vs_cpp_image_logits": {
+          "max_absolute_error": 0.0,
+          "passed": true
+        },
+        "pillow_vs_gui_logits": {
+          "max_absolute_error": 0.0,
+          "passed": true
+        }
+      },
+      "python_logits": [
+        -3.508607864379883,
+        3.278651714324951
+      ],
+      "gui_logits": [
+        -3.508607864379883,
+        3.278651714324951
+      ],
+      "cpp_image_logits": [
+        -3.508607864379883,
+        3.278651714324951
+      ],
+      "cpp_shared_tensor_logits": [
+        -3.508607864379883,
+        3.278651714324951
+      ],
+      "decisions": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "decision_match": true,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

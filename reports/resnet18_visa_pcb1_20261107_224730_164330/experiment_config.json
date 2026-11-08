@@ -1,0 +1,46 @@
+{
+  "seed": 42,
+  "dataset": "VisA",
+  "object": "pcb1",
+  "official_split": "2cls_highshot.csv",
+  "split_manifest": "data/splits/visa_pcb1_highshot_v1.json",
+  "split_manifest_sha256": "96786398767503faac4aa117f47c67038c000259873b1dd3067561346952726d",
+  "official_csv_sha256": "c3331eede15f2da8a75b380d4fbfb24f75ee036ec9a25147eca898da6e972f09",
+  "official_test_used_during_training": false,
+  "related_image_groups_verified": false,
+  "architecture": "resnet18",
+  "initial_weights": "IMAGENET1K_V1",
+  "fine_tuning": "all_layers",
+  "loss": "CrossEntropyLoss (unweighted)",
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "batch_size": 8,
+  "epochs": 12,
+  "train_horizontal_flip_probability": 0.0,
+  "model_selection": "highest validation average_precision (ties: earlier epoch)",
+  "defect_threshold": 0.5,
+  "input": {
+    "height": 384,
+    "width": 512,
+    "color_space": "RGB",
+    "layout": "NCHW",
+    "dtype": "float32",
+    "resize_method": "stretch",
+    "interpolation": "bilinear",
+    "pixel_scale": 0.00392156862745098,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "pytorch": "2.11.0+cu128",
+  "torchvision": "0.26.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5060"
+}

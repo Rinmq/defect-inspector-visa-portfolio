@@ -1,0 +1,933 @@
+[
+  {
+    "image": "pcb1/Data/Images/Anomaly/010.JPG",
+    "true_label": 1,
+    "predicted_label": 1,
+    "defect_score": 0.998874843120575,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Anomaly/021.JPG",
+    "true_label": 1,
+    "predicted_label": 1,
+    "defect_score": 0.5598716139793396,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Anomaly/038.JPG",
+    "true_label": 1,
+    "predicted_label": 1,
+    "defect_score": 0.9804484248161316,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Anomaly/045.JPG",
+    "true_label": 1,
+    "predicted_label": 1,
+    "defect_score": 0.9884385466575623,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Anomaly/059.JPG",
+    "true_label": 1,
+    "predicted_label": 1,
+    "defect_score": 0.8689658641815186,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Anomaly/061.JPG",
+    "true_label": 1,
+    "predicted_label": 1,
+    "defect_score": 0.9734336137771606,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Anomaly/066.JPG",
+    "true_label": 1,
+    "predicted_label": 1,
+    "defect_score": 0.9545869827270508,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Anomaly/067.JPG",
+    "true_label": 1,
+    "predicted_label": 1,
+    "defect_score": 0.8193969130516052,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Anomaly/068.JPG",
+    "true_label": 1,
+    "predicted_label": 1,
+    "defect_score": 0.9999315738677979,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Anomaly/081.JPG",
+    "true_label": 1,
+    "predicted_label": 0,
+    "defect_score": 0.39146777987480164,
+    "correct": false
+  },
+  {
+    "image": "pcb1/Data/Images/Anomaly/084.JPG",
+    "true_label": 1,
+    "predicted_label": 1,
+    "defect_score": 0.7964137196540833,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Anomaly/087.JPG",
+    "true_label": 1,
+    "predicted_label": 1,
+    "defect_score": 0.9764875173568726,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0000.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.027359379455447197,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0003.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.2029949277639389,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0013.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.0601101815700531,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0015.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.032265108078718185,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0032.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.0118087287992239,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0037.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.03293726220726967,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0058.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.0713852122426033,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0065.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.1204577162861824,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0067.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.10099589079618454,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0081.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.016455745324492455,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0097.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.0784190446138382,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0100.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.017423860728740692,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0122.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.06987421959638596,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0125.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.2529250383377075,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0131.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.010641987435519695,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0135.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.12825331091880798,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0144.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.23873844742774963,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0183.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.045537300407886505,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0184.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.032483916729688644,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0193.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.032417044043540955,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0199.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.02344866655766964,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0200.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.07654634863138199,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0202.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.08574104309082031,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0226.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.05827777087688446,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0245.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.07860632240772247,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0254.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.029665077105164528,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0256.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.06867020577192307,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0257.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.019926419481635094,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0269.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.05606548488140106,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0276.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.028885120525956154,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0277.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.009604488499462605,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0282.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.02640163153409958,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0299.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.0595763698220253,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0304.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.10419737547636032,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0311.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.006206010468304157,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0321.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.13000796735286713,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0337.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.0876927599310875,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0342.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.2269463986158371,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0358.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.02204226702451706,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0360.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.03271810710430145,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0382.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.0330340676009655,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0386.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.038175541907548904,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0391.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.09407280385494232,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0393.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.017158718779683113,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0394.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.05299443379044533,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0407.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.07048667967319489,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0420.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.11788415908813477,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0427.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.031457286328077316,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0429.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.10068198293447495,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0441.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.021614335477352142,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0445.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.2693968713283539,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0447.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.05653940886259079,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0450.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.010963858105242252,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0466.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.06602827459573746,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0467.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.06536594778299332,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0472.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.04061843082308769,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0475.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.05156779661774635,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0479.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.05170643702149391,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0481.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.10856284201145172,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0487.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.02527693100273609,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0494.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.0310131274163723,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0495.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.030438944697380066,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0506.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.19337666034698486,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0509.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.1258886158466339,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0523.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.03966429829597473,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0530.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.07504929602146149,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0534.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.1149330660700798,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0535.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.05719362199306488,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0537.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.10087122023105621,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0538.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.1031292974948883,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0544.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.24787357449531555,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0555.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.18191654980182648,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0562.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.12200833857059479,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0568.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.25281766057014465,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0585.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.1332307904958725,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0588.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.10628590732812881,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0594.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.3448829650878906,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0606.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.05686451494693756,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0609.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.21570102870464325,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0610.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.06392522156238556,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0613.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.12324616312980652,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0625.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.19539561867713928,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0633.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.14332565665245056,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0635.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.2142866849899292,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0648.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.05997902527451515,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0653.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.13071459531784058,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0654.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.015585849061608315,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0704.JPG",
+    "true_label": 0,
+    "predicted_label": 1,
+    "defect_score": 0.6048126816749573,
+    "correct": false
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0713.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.03920646011829376,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0733.JPG",
+    "true_label": 0,
+    "predicted_label": 1,
+    "defect_score": 0.5878968834877014,
+    "correct": false
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0735.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.13860131800174713,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0737.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.03608684241771698,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0757.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.15915906429290771,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0784.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.4412427842617035,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0788.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.3579220473766327,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0791.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.2984187602996826,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0793.JPG",
+    "true_label": 0,
+    "predicted_label": 1,
+    "defect_score": 0.8367519974708557,
+    "correct": false
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0799.JPG",
+    "true_label": 0,
+    "predicted_label": 1,
+    "defect_score": 0.5414478182792664,
+    "correct": false
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0809.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.18759660422801971,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0814.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.14746281504631042,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0819.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.2316899299621582,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0820.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.24376311898231506,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0830.JPG",
+    "true_label": 0,
+    "predicted_label": 1,
+    "defect_score": 0.6488556265830994,
+    "correct": false
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0831.JPG",
+    "true_label": 0,
+    "predicted_label": 1,
+    "defect_score": 0.8213914632797241,
+    "correct": false
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0843.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.04826636612415314,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0865.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.04499664530158043,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0875.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.02314724400639534,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0878.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.06767763942480087,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0883.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.04581430181860924,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0887.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.03584246709942818,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0900.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.13491496443748474,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0901.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.025781989097595215,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0916.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.039555735886096954,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0919.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.014507152140140533,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0945.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.01438295841217041,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0948.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.03866713494062424,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0951.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.013335948809981346,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0956.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.011487760581076145,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0963.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.021559320390224457,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0972.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.03945888951420784,
+    "correct": true
+  },
+  {
+    "image": "pcb1/Data/Images/Normal/0984.JPG",
+    "true_label": 0,
+    "predicted_label": 0,
+    "defect_score": 0.07489027082920074,
+    "correct": true
+  }
+]

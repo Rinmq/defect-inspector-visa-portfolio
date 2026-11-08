@@ -1,0 +1,39 @@
+
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "defect-inspector"
+version = "0.1.0"
+description = "Two-class defect image classification with PyTorch and ONNX Runtime"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "torch==2.11.0",
+    "torchvision==0.26.0",
+    "numpy>=2.1,<3",
+    "opencv-python-headless>=4.10,<5",
+    "Pillow>=11,<13",
+    "scikit-learn>=1.6,<2",
+    "matplotlib>=3.9,<4",
+    "onnx>=1.17,<2",
+    "onnxscript>=0.5,<1",
+    "onnxruntime>=1.21,<2",
+    "PySide6>=6.8,<7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8,<10",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["defect_inspector*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
