@@ -129,6 +129,34 @@ data/
 
 **整合性検証は2枚について確認したもの**で、データセット全件の一致検証ではありません。
 
+## 学習済みモデルを使った推論
+
+本リポジトリには学習済みモデル本体を含めていません。
+GitHub Releaseは配布条件の確認中のため、現在は一般公開していません。
+
+検証済みのモデル、または自分で学習・変換したモデルを持っている場合は、再学習せずにGUIを起動できます。
+
+Python環境を構築した後、リポジトリ直下から実行してください。
+
+```powershell
+$run = ".\artifacts\experiments\visa_pcb1_demo"
+New-Item -ItemType Directory -Path $run -Force | Out-Null
+```
+
+このフォルダーに次の2ファイルを配置します。
+
+- `model.onnx`
+- `model_metadata.json`
+
+```powershell
+.\.venv\Scripts\python.exe -m defect_inspector.gui --run "$run"
+```
+
+GUIで画像を選択して、正常・欠陥の分類結果を確認できます。
+モデルとmetadataのSHA-256が一致しない場合は読み込みを拒否します。
+
+学習済みモデルの再配布条件が確認できた場合は、GitHub Releasesからの入手方法を追記します。
+
 ## 環境構築・再現手順（Windows PowerShell）
 
 > 以下は開発環境で使った手順です。第三者のクリーンなWindows環境での通し実行は未検証です。学習にはCUDA対応PyTorchとNVIDIA GPUが必要です。
